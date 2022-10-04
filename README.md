@@ -163,7 +163,7 @@ for å fortelle app runner hvilket container som skal deployes.
  run: terraform apply -var="prefix=<studentnavn>" -var="image=244530008913.dkr.ecr.eu-west-1.amazonaws.com/<studentnavn>-private:latest" -auto-approve
 ```
 
-## Test 
+## Test trolo defwa
 
 * Kjør byggejobben manuelt førte gang gang.  Det vil det lages en docker container som pushes til ECR repository. App runner vil lage en service 
 * Sjekk at det er dukket opp to container images i ECR. En med en tag som matcher git commit, og en som heter latest.
