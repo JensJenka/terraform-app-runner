@@ -154,7 +154,7 @@ NB. Pass på å både push en container med git revisjons id'en, men også en la
           docker push 244530008913.dkr.ecr.eu-west-1.amazonaws.com/glenn:latest
 ```
 
-## Endre terraform apply linjen 
+## Endre terraform apply linjen HEY
 
 Finn denne linjen, du må endre prefix til å være ditt studentnavn, du må også legge inn studentnavn i image variabelen
 for å fortelle app runner hvilket container som skal deployes.
